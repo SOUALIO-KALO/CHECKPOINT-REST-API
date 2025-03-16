@@ -1,0 +1,25 @@
+{
+  "name": "checkpoint-rest-api",
+  "version": "1.0.0",
+  "description": "Dans ce point de contrôle, vous allez effectuer une série d'instructions guidées pour créer une API REST en manipulant votre base de données avec mongoose.",
+  "keywords": [
+    "node.js",
+    "es6"
+  ],
+  "license": "ISC",
+  "author": "Kalo soualio",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
